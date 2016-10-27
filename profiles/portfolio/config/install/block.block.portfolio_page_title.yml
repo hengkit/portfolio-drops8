@@ -1,0 +1,20 @@
+uuid: 04033c8e-7aaf-49db-9e29-7ea3f63131cc
+langcode: en
+status: false
+dependencies:
+  theme:
+    - portfolio
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: portfolio_page_title
+theme: portfolio
+region: '-1'
+weight: 4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
