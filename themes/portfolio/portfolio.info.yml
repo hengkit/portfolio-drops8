@@ -1,0 +1,9 @@
+name: Portfolio
+type: theme
+description: 'Basic Drupal 8 Theme'
+package: Core
+core: 8.x
+base theme: stable
+
+libraries:
+    - portfolio/global
