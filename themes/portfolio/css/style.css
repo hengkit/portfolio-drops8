@@ -1,0 +1,59 @@
+body {
+  background: white;
+  font-family:"Open Sans";
+}
+
+#block-portfolio-content {
+  background: whitesmoke;
+  width: 90%;
+  height: 800px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.node__content {
+  //background: white;
+  float: left;
+  width: 25%;
+  text-align: justify;
+  padding: 5px;
+}
+.node__hero__image {
+  float: right;
+  display:inline;
+  width: 70%;
+  height: 360px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#gallery {
+  float:left;
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+.gallery-image-item {
+  width: 25%;
+
+  float:left;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height:300px;
+}
+.menu__main {
+  display:inline-block;
+  width:95%;
+  text-align: right;
+  margin: 0px auto;
+
+}
+.menu__main__item {
+  display:inline-block;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
