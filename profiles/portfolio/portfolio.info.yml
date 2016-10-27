@@ -1,0 +1,50 @@
+name: portfolio
+description: demo
+type: profile
+core: 8.x
+dependencies:
+  - automated_cron
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - color
+  - comment
+  - config
+  - contact
+  - contextual
+  - core
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - field_ui
+  - file
+  - help
+  - history
+  - image
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - quickedit
+  - rdf
+  - search
+  - shortcut
+  - site
+  - system
+  - taxonomy
+  - text
+  - toolbar
+  - tour
+  - user
+  - views
+  - views_ui
+  - image_url_formatter
+themes:
+  - bartik
+  - seven
+  - stable
+  - portfolio
