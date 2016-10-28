@@ -44,5 +44,5 @@ dependencies:
 themes:
   - bartik
   - seven
-  - stable
+  #- stable
   - portfolio
