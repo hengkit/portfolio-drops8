@@ -36,12 +36,11 @@ body {
 }
 .gallery-image-item {
   width: 25%;
-
   float:left;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  height:300px;
+  background-size: auto;
+  height:180px;
 }
 .menu__main {
   display:inline-block;
