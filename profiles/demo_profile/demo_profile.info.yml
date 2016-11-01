@@ -42,7 +42,7 @@ dependencies:
   - views_ui
   - image_url_formatter
 themes:
-  #- bartik
+  - bartik
   - seven
   #- stable
   - portfolio
