@@ -1,5 +1,5 @@
-name: portfolio
-description: demo
+name: Demo
+description: demo description
 type: profile
 core: 8.x
 dependencies:
@@ -42,7 +42,7 @@ dependencies:
   - views_ui
   - image_url_formatter
 themes:
-  - bartik
+  #- bartik
   - seven
   #- stable
   - portfolio

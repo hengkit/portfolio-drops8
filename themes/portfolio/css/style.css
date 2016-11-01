@@ -9,6 +9,7 @@ body {
   height: 800px;
   margin: 0 auto;
   padding: 15px;
+  border-radius:20px;
 }
 
 .node__content {
