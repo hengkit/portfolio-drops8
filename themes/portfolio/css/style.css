@@ -4,12 +4,12 @@ body {
 }
 
 #block-portfolio-content {
+  // This would be a great place to change the background to a different color
   background: whitesmoke;
   width: 90%;
   height: 800px;
   margin: 0 auto;
   padding: 15px;
-  border-radius:20px;
 }
 
 .node__content {
