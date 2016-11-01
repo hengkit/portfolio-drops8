@@ -36,13 +36,13 @@ dependencies:
   - taxonomy
   - text
   - toolbar
-  - tour
+#  - tour
   - user
   - views
   - views_ui
   - image_url_formatter
 themes:
-  - bartik
+  #- bartik
   - seven
   #- stable
   - portfolio
