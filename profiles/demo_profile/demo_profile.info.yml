@@ -41,7 +41,6 @@ dependencies:
   - views
   - views_ui
   - image_url_formatter
-  - menu_link_config
 themes:
   #- bartik
   - seven
