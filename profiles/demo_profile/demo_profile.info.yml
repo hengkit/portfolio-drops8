@@ -1,5 +1,5 @@
-name: Demo
-description: demo description
+name: Portfolio Profile
+description: Pre-configured profile for portfolios
 type: profile
 core: 8.x
 dependencies:
@@ -41,6 +41,7 @@ dependencies:
   - views
   - views_ui
   - image_url_formatter
+  - menu_link_config
 themes:
   #- bartik
   - seven
