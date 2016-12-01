@@ -11,13 +11,14 @@ body {
   margin: 0 auto;
   padding: 15px;
 }
-
+.node__title {
+  padding-left: 15px;
+}
 .node__content {
-  //background: white;
   float: left;
   width: 25%;
   text-align: justify;
-  padding: 5px;
+  padding: 5px 5px 5px 30px;
 }
 .node__hero__image {
   float: right;
@@ -32,7 +33,7 @@ body {
   float:left;
   width: 100%;
   height: 200px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .gallery-image-item {
   width: 25%;
