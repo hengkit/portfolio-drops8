@@ -27,8 +27,25 @@
         </div>
       </div>
     </div>
+    <div id="edge">
+      <h4>Pantheon Global Edge</h4>
+      <div id="pops">
+        <div class="circleIcon">
+          <img src="img/globe-white_72x72.png" />
+        </div>
+        <div class="circleIcon">
+          <img src="img/globe-white_72x72.png" />
+        </div>
+        <div class="circleIcon">
+          <img src="img/globe-white_72x72.png" />
+        </div>
+        <div class="circleIcon">
+          <img src="img/globe-white_72x72.png" />
+        </div>
+      </div>
+    </div>
       <div id="diagramContainer">
-        <h4>Pantheon platform</h4>
+        <h4>Pantheon Platform</h4>
       </div>
   </script>
 
@@ -51,8 +68,10 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Service Levels <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li class="personal"><a href="#/diagram/personal">Personal</a></li>
+                <li class="professional"><a href="#/diagram/professional">Professional</a></li>
                 <li class="business"><a href="#/diagram/business">Business</a></li>
-                <li class="enterprise"><a href="#/diagram/enterprise">Enterprise</a></li>
+                <li class="elite"><a href="#/diagram/elite">Elite</a></li>
+                <li class="elitemax"><a href="#/diagram/elitemax">Elite (Traffic Spike) </a></li>
               </ul>
             </li>
           </ul>
@@ -95,13 +114,23 @@
       var user_image ='<div class="circleIcon"><img src="img/User-icon-white-72x72.png"/></div>';
       var className = $(this).attr('class');
       $("#thecloud").empty();
-      if (className == "enterprise"){
+      if (className == "elite"){
         for (i=0;i<8;i++){
+          $(user_image).appendTo("#thecloud");
+
+        }
+      } else if(className =="elitemax"){
+        for (i=0;i<12;i++){
           $(user_image).appendTo("#thecloud");
 
         }
       } else if(className =="business"){
         for (i=0;i<4;i++){
+          $(user_image).appendTo("#thecloud");
+
+        }
+      } else if(className =="professional"){
+        for (i=0;i<2;i++){
           $(user_image).appendTo("#thecloud");
 
         }
