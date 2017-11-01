@@ -1,4 +1,3 @@
-asdsdfdfsdf
 CONTENTS OF THIS FILE
 ---------------------
 
