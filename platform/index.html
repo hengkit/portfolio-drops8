@@ -28,19 +28,19 @@
       </div>
     </div>
     <div id="edge">
-      <h4>Pantheon Global CDN</h4>
+      <h4>Pantheon Global CDN + Managed HTTPS</h4>
       <div id="pops">
         <div class="circleIcon">
-          <img src="img/globe-white_72x72.png" />
+          <input type="image" src="img/globe-white_72x72.png" data-toggle="modal" data-target="#myModal" style="outline: none;"/>
         </div>
         <div class="circleIcon">
-          <img src="img/globe-white_72x72.png" />
+          <input type="image" src="img/globe-white_72x72.png" data-toggle="modal" data-target="#myModal" style="outline: none;"/>
+      </div>
+        <div class="circleIcon">
+          <input type="image" src="img/globe-white_72x72.png" data-toggle="modal" data-target="#myModal" style="outline: none;"/>
         </div>
         <div class="circleIcon">
-          <img src="img/globe-white_72x72.png" />
-        </div>
-        <div class="circleIcon">
-          <img src="img/globe-white_72x72.png" />
+          <input type="image" src="img/globe-white_72x72.png" data-toggle="modal" data-target="#myModal" style="outline: none;"/>
         </div>
       </div>
     </div>
@@ -67,9 +67,8 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Service Levels <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li class="personal"><a href="#/diagram/personal">Personal</a></li>
-                <li class="professional"><a href="#/diagram/professional">Professional</a></li>
-                <li class="business"><a href="#/diagram/business">Business</a></li>
+                <li class="personal"><a href="#/diagram/personal">Basic</a></li>
+                <li class="business"><a href="#/diagram/business">Performance</a></li>
                 <li class="elite"><a href="#/diagram/elite">Elite</a></li>
                 <li class="elitemax"><a href="#/diagram/elitemax">Elite (Traffic Spike) </a></li>
               </ul>
@@ -140,5 +139,17 @@
     });
 });
   </script>
+  <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog" style="width:80%">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <img class="cdn-map" src="img/cdn-map.png" />
+      </div>
+    </div>
+
+  </div>
+</div>
 </body>
 </html>
